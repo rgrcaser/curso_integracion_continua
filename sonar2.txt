@@ -1,0 +1,24 @@
+mvn sonar:sonar \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=06bbcb489203f157d02fadf70e661ca5f78fd651
+
+b2e01b5aec6e56a8efce5d653b809e8c669616cb
+TokenJenkins
+UserJenkins/admin
+
+#*****************************************************
+# Project Identification
+#*****************************************************
+sonar.projectKey=Demo1
+sonar.projectName=Demo 1
+sonar.projectVersion=1
+sonar.dotnet.visualstudio.solution=Demo1.sln 
+sonar.projectDescription=Proyecto de Demo
+sonar.scm.disabled=true
+#*****************************************************
+# C# Specific Properties
+#*****************************************************
+sonar.sources=.
+sonar.language=cs
+sonar.sourceEncoding=UTF-8
+#*****************************************************
